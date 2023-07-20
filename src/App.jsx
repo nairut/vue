@@ -7,7 +7,7 @@ import { CellForm } from "./screens/CellForm";
 import { Index } from "./screens/Index";
 
 export const App = () => {
-  const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
+  const isMobile = useMediaQuery({ maxWidth: 767 });
 
   const renderForm = () => {
     if (isMobile) {
