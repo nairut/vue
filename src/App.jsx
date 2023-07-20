@@ -6,7 +6,7 @@ import { DesktopForm } from "./screens/DesktopForm";
 import { CellForm } from "./screens/CellForm";
 import { Index } from "./screens/Index";
 
-const App = () => {
+export const App = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
 
   const renderForm = () => {
@@ -38,5 +38,3 @@ const App = () => {
 
   return <RouterProvider router={router} />;
 };
-
-export default App;
