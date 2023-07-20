@@ -1,7 +1,6 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
-import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
 import { CellForm } from "./screens/CellForm";
 import { Index } from "./screens/Index";
@@ -11,7 +10,7 @@ export const App = () => {
 
   const renderForm = () => {
     if (isMobile) {
-      return <Celular />;
+      return <CellForm />;
     } else {
       return <DesktopForm />;
     }
@@ -25,14 +24,6 @@ export const App = () => {
     {
       path: "/form",
       element: renderForm(),
-    },
-    {
-      path: "/cell-form",
-      element: <CellForm />,
-    },
-    {
-      path: "/index",
-      element: <Index />,
     },
   ]);
 
