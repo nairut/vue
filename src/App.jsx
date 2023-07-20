@@ -1,30 +1,30 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { DesktopForm } from "./screens/DesktopForm";
 import { Celular } from "./screens/Celular";
-import { CellForm } from "./screens/CellForm";
 import { Index } from "./screens/Index";
+import { CellForm } from "./screens/CellForm";
+import { DesktopForm } from "./screens/DesktopForm";
 
 const router = createBrowserRouter([
   {
     path: "/*",
-    element: <DesktopForm />,
-  },
-  {
-    path: "/desktop-form",
-    element: <DesktopForm />,
+    element: <Celular />,
   },
   {
     path: "/celular",
     element: <Celular />,
   },
   {
+    path: "/index",
+    element: <Index />,
+  },
+  {
     path: "/cell-form",
     element: <CellForm />,
   },
   {
-    path: "/index",
-    element: <Index />,
+    path: "/desktop-form",
+    element: <DesktopForm />,
   },
 ]);
 

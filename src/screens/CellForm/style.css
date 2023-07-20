@@ -14,7 +14,7 @@
   width: 430px;
 }
 
-.cell-form .text-wrapper-8 {
+.cell-form .text-wrapper-28 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 45px;
@@ -52,7 +52,7 @@
   width: 268px;
 }
 
-.cell-form .magma-translation-3 {
+.cell-form .magma-translation-4 {
   height: 54px;
   left: 118px;
   position: absolute;
@@ -60,7 +60,7 @@
   width: 194px;
 }
 
-.cell-form .overlap-8 {
+.cell-form .overlap-18 {
   height: 83px;
   left: 62px;
   position: absolute;
@@ -68,7 +68,7 @@
   width: 296px;
 }
 
-.cell-form .rectangle-6 {
+.cell-form .rectangle-8 {
   background-color: #ffffff;
   border: 0.7px solid;
   border-color: #000000;
@@ -80,7 +80,7 @@
   width: 296px;
 }
 
-.cell-form .group-4 {
+.cell-form .overlap-group-wrapper {
   height: 36px;
   left: 27px;
   position: absolute;
@@ -88,14 +88,14 @@
   width: 78px;
 }
 
-.cell-form .overlap-group-2 {
+.cell-form .div-wrapper {
   background-color: #ffffff;
   height: 36px;
   position: relative;
   width: 76px;
 }
 
-.cell-form .text-wrapper-9 {
+.cell-form .text-wrapper-29 {
   color: #0a3749;
   font-family: "Nunito", Helvetica;
   font-size: 22px;

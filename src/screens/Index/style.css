@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.index .div-4 {
+.index .div {
   background-color: #ffffff;
   border: 0.99px none;
   height: 3796px;
@@ -14,7 +14,7 @@
   width: 1201px;
 }
 
-.index .overlap-9 {
+.index .overlap {
   height: 447px;
   left: 64px;
   position: absolute;
@@ -22,7 +22,7 @@
   width: 1035px;
 }
 
-.index .rectangle-7 {
+.index .rectangle {
   height: 447px;
   left: 523px;
   position: absolute;
@@ -30,7 +30,7 @@
   width: 512px;
 }
 
-.index .group-5 {
+.index .group-2 {
   height: 404px;
   left: 0;
   position: absolute;
@@ -38,7 +38,7 @@
   width: 693px;
 }
 
-.index .text-wrapper-10 {
+.index .text-wrapper {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 59.8px;
@@ -51,7 +51,7 @@
   width: 599px;
 }
 
-.index .element-languages-that-2 {
+.index .element-languages-that {
   color: #383836;
   font-family: "Lato", Helvetica;
   font-size: 21.5px;
@@ -82,7 +82,7 @@
   width: 205px !important;
 }
 
-.index .text-wrapper-11 {
+.index .p {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 37.7px;
@@ -95,7 +95,7 @@
   width: 706px;
 }
 
-.index .text-wrapper-12 {
+.index .text-wrapper-2 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 37px;
@@ -148,7 +148,7 @@
   width: 101px;
 }
 
-.index .rectangle-8 {
+.index .img {
   height: 70px;
   left: 358px;
   object-fit: cover;
@@ -165,7 +165,7 @@
   width: 101px;
 }
 
-.index .rectangle-9 {
+.index .rectangle-2 {
   height: 70px;
   left: 486px;
   object-fit: cover;
@@ -174,7 +174,7 @@
   width: 101px;
 }
 
-.index .rectangle-10 {
+.index .rectangle-3 {
   height: 79px;
   left: 614px;
   object-fit: cover;
@@ -183,7 +183,7 @@
   width: 111px;
 }
 
-.index .rectangle-11 {
+.index .rectangle-4 {
   height: 70px;
   left: 614px;
   object-fit: cover;
@@ -192,7 +192,7 @@
   width: 101px;
 }
 
-.index .rectangle-12 {
+.index .rectangle-5 {
   height: 70px;
   left: 742px;
   object-fit: cover;
@@ -209,7 +209,7 @@
   width: 101px;
 }
 
-.index .rectangle-13 {
+.index .rectangle-6 {
   height: 70px;
   left: 864px;
   object-fit: cover;
@@ -226,7 +226,7 @@
   width: 101px;
 }
 
-.index .rectangle-14 {
+.index .rectangle-7 {
   height: 70px;
   left: 984px;
   object-fit: cover;
@@ -243,7 +243,7 @@
   width: 101px;
 }
 
-.index .overlap-10 {
+.index .overlap-group {
   background-image: url(../../../static/img/rectangle-19.svg);
   background-size: 100% 100%;
   height: 139px;
@@ -253,7 +253,7 @@
   width: 152px;
 }
 
-.index .text-wrapper-13 {
+.index .text-wrapper-3 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 20px;
@@ -274,7 +274,7 @@
   width: 38px;
 }
 
-.index .overlap-11 {
+.index .overlap-2 {
   background-image: url(../../../static/img/rectangle-19.svg);
   background-size: 100% 100%;
   height: 139px;
@@ -305,7 +305,7 @@
   width: 38px;
 }
 
-.index .overlap-12 {
+.index .overlap-3 {
   border: 1px solid;
   border-color: #c8982a;
   height: 139px;
@@ -315,7 +315,7 @@
   width: 152px;
 }
 
-.index .text-wrapper-14 {
+.index .text-wrapper-4 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 20px;
@@ -336,7 +336,7 @@
   width: 38px;
 }
 
-.index .overlap-13 {
+.index .overlap-4 {
   border: 1px solid;
   border-color: #c8982a;
   height: 139px;
@@ -346,7 +346,7 @@
   width: 152px;
 }
 
-.index .text-wrapper-15 {
+.index .text-wrapper-5 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 20px;
@@ -359,7 +359,7 @@
   white-space: nowrap;
 }
 
-.index .overlap-14 {
+.index .overlap-5 {
   border: 1px solid;
   border-color: #c8982a;
   height: 139px;
@@ -369,7 +369,7 @@
   width: 152px;
 }
 
-.index .text-wrapper-16 {
+.index .text-wrapper-6 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 20px;
@@ -382,7 +382,7 @@
   white-space: nowrap;
 }
 
-.index .overlap-15 {
+.index .overlap-6 {
   border: 1px solid;
   border-color: #c8982a;
   height: 139px;
@@ -392,7 +392,7 @@
   width: 152px;
 }
 
-.index .text-wrapper-17 {
+.index .text-wrapper-7 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 20px;
@@ -405,7 +405,7 @@
   white-space: nowrap;
 }
 
-.index .overlap-16 {
+.index .overlap-7 {
   border: 1px solid;
   border-color: #c8982a;
   height: 139px;
@@ -415,7 +415,7 @@
   width: 152px;
 }
 
-.index .text-wrapper-18 {
+.index .text-wrapper-8 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 20px;
@@ -436,7 +436,7 @@
   width: 38px;
 }
 
-.index .overlap-17 {
+.index .overlap-8 {
   border: 1px solid;
   border-color: #c8982a;
   height: 139px;
@@ -446,7 +446,7 @@
   width: 152px;
 }
 
-.index .text-wrapper-19 {
+.index .text-wrapper-9 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 20px;
@@ -459,7 +459,7 @@
   white-space: nowrap;
 }
 
-.index .overlap-18 {
+.index .overlap-9 {
   border: 1px solid;
   border-color: #c8982a;
   height: 139px;
@@ -469,7 +469,7 @@
   width: 152px;
 }
 
-.index .overlap-19 {
+.index .overlap-10 {
   border: 1px solid;
   border-color: #c8982a;
   height: 139px;
@@ -479,7 +479,7 @@
   width: 152px;
 }
 
-.index .text-wrapper-20 {
+.index .text-wrapper-10 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 20px;
@@ -492,7 +492,7 @@
   white-space: nowrap;
 }
 
-.index .overlap-20 {
+.index .overlap-11 {
   border: 1px solid;
   border-color: #c8982a;
   height: 139px;
@@ -502,7 +502,7 @@
   width: 152px;
 }
 
-.index .overlap-21 {
+.index .overlap-12 {
   border: 1px solid;
   border-color: #c8982a;
   height: 139px;
@@ -512,7 +512,7 @@
   width: 152px;
 }
 
-.index .text-wrapper-21 {
+.index .text-wrapper-11 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 20px;
@@ -525,7 +525,7 @@
   white-space: nowrap;
 }
 
-.index .text-wrapper-22 {
+.index .text-wrapper-12 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 37.7px;
@@ -538,7 +538,7 @@
   width: 468px;
 }
 
-.index .text-wrapper-23 {
+.index .text-wrapper-13 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 20px;
@@ -552,7 +552,7 @@
   width: 939px;
 }
 
-.index .overlap-22 {
+.index .overlap-13 {
   border: 1px solid;
   border-color: #c8982a;
   height: 205px;
@@ -583,7 +583,7 @@
   width: 38px;
 }
 
-.index .overlap-group-3 {
+.index .overlap-group-2 {
   border: 1px solid;
   border-color: #c8982a;
   height: 205px;
@@ -606,7 +606,7 @@
   width: 93px;
 }
 
-.index .overlap-23 {
+.index .overlap-14 {
   border: 1px solid;
   border-color: #c8982a;
   height: 205px;
@@ -629,7 +629,7 @@
   width: 77px;
 }
 
-.index .overlap-24 {
+.index .overlap-15 {
   border: 1px solid;
   border-color: #c8982a;
   height: 205px;
@@ -639,7 +639,7 @@
   width: 138px;
 }
 
-.index .text-wrapper-24 {
+.index .text-wrapper-14 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 17px;
@@ -652,7 +652,7 @@
   width: 97px;
 }
 
-.index .overlap-25 {
+.index .overlap-16 {
   border: 1px solid;
   border-color: #c8982a;
   height: 205px;
@@ -662,7 +662,7 @@
   width: 138px;
 }
 
-.index .text-wrapper-25 {
+.index .text-wrapper-15 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 17px;
@@ -675,7 +675,7 @@
   width: 117px;
 }
 
-.index .overlap-26 {
+.index .overlap-17 {
   border: 1px solid;
   border-color: #c8982a;
   height: 205px;
@@ -685,7 +685,7 @@
   width: 138px;
 }
 
-.index .text-wrapper-26 {
+.index .text-wrapper-16 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 17px;
@@ -715,7 +715,7 @@
   width: 329px !important;
 }
 
-.index .group-6 {
+.index .group-3 {
   border-radius: 28.16px !important;
   height: 56px !important;
   left: 433px !important;
@@ -738,7 +738,7 @@
   width: 285px;
 }
 
-.index .text-wrapper-27 {
+.index .text-wrapper-17 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 16px;
@@ -770,11 +770,11 @@
   line-height: 21.4px;
 }
 
-.index .text-wrapper-28 {
+.index .text-wrapper-18 {
   line-height: 26.2px;
 }
 
-.index .text-wrapper-29 {
+.index .text-wrapper-19 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 37px;
@@ -800,7 +800,7 @@
   top: 1994px;
 }
 
-.index .text-wrapper-30 {
+.index .text-wrapper-20 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 18px;
@@ -814,7 +814,7 @@
   white-space: nowrap;
 }
 
-.index .text-wrapper-31 {
+.index .text-wrapper-21 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 18px;
@@ -828,7 +828,7 @@
   white-space: nowrap;
 }
 
-.index .text-wrapper-32 {
+.index .text-wrapper-22 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 18px;
@@ -842,7 +842,7 @@
   white-space: nowrap;
 }
 
-.index .text-wrapper-33 {
+.index .text-wrapper-23 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 18px;
@@ -856,7 +856,7 @@
   white-space: nowrap;
 }
 
-.index .text-wrapper-34 {
+.index .text-wrapper-24 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 18px;
@@ -870,7 +870,7 @@
   white-space: nowrap;
 }
 
-.index .text-wrapper-35 {
+.index .text-wrapper-25 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 18px;
@@ -1031,7 +1031,7 @@
   width: 23px !important;
 }
 
-.index .magma-translation-4 {
+.index .magma-translation {
   height: 54px;
   left: 64px;
   position: absolute;
@@ -1039,7 +1039,7 @@
   width: 194px;
 }
 
-.index .text-wrapper-36 {
+.index .text-wrapper-26 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 18px;
@@ -1053,7 +1053,7 @@
   width: 816px;
 }
 
-.index .text-wrapper-37 {
+.index .text-wrapper-27 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 18px;
@@ -1067,7 +1067,7 @@
   width: 444px;
 }
 
-.index .magma-translation-5 {
+.index .magma-translation-2 {
   height: 54px;
   left: 500px;
   position: absolute;

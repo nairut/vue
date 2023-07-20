@@ -5,16 +5,16 @@ export const CellForm = () => {
   return (
     <div className="cell-form">
       <div className="div-3">
-        <h1 className="text-wrapper-8">Get a Free, No-Obligation Price Quote</h1>
+        <h1 className="text-wrapper-28">Get a Free, No-Obligation Price Quote</h1>
         <div className="send-wrapper">
           <div className="send">SEND</div>
         </div>
-        <img className="magma-translation-3" alt="Magma translation" src="/img/magma-translation-png-1.png" />
-        <div className="overlap-8">
-          <div className="rectangle-6" />
-          <div className="group-4">
-            <div className="overlap-group-2">
-              <div className="text-wrapper-9">Email</div>
+        <img className="magma-translation-4" alt="Magma translation" src="/img/magma-translation-png-1.png" />
+        <div className="overlap-18">
+          <div className="rectangle-8" />
+          <div className="overlap-group-wrapper">
+            <div className="div-wrapper">
+              <div className="text-wrapper-29">Email</div>
             </div>
           </div>
         </div>

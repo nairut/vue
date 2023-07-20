@@ -6,8 +6,8 @@ export const Celular = () => {
   return (
     <div className="celular">
       <div className="div-2">
-        <h1 className="text-wrapper-7">Professional Translation Services</h1>
-        <p className="element-languages-that">
+        <h1 className="h-1">Professional Translation Services</h1>
+        <p className="element-languages-that-2">
           120 languages that fits in your budget
           <br />
           High Quality Human Translation
@@ -17,7 +17,7 @@ export const Celular = () => {
         <Link className="click-to-discover-wrapper" to="/cell-form">
           <div className="click-to-discover">CLICK TO DISCOVER</div>
         </Link>
-        <img className="magma-translation-2" alt="Magma translation" src="/img/magma-translation-png-1.png" />
+        <img className="magma-translation-3" alt="Magma translation" src="/img/magma-translation-png-1.png" />
       </div>
     </div>
   );

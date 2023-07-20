@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.desktop-form .div {
+.desktop-form .div-4 {
   background-color: #ffffff;
   border: 0.77px none;
   height: 1072px;
@@ -14,7 +14,7 @@
   width: 1014px;
 }
 
-.desktop-form .overlap-group-wrapper {
+.desktop-form .group-4 {
   height: 50px;
   left: 472px;
   position: absolute;
@@ -22,7 +22,7 @@
   width: 431px;
 }
 
-.desktop-form .overlap-group {
+.desktop-form .overlap-group-3 {
   background-color: #ffe061;
   border-radius: 5.38px;
   height: 50px;
@@ -30,7 +30,7 @@
   width: 429px;
 }
 
-.desktop-form .text-wrapper {
+.desktop-form .text-wrapper-30 {
   color: #0a3749;
   font-family: "Inter", Helvetica;
   font-size: 20.8px;
@@ -43,7 +43,7 @@
   width: 129px;
 }
 
-.desktop-form .overlap {
+.desktop-form .overlap-19 {
   height: 99px;
   left: 470px;
   position: absolute;
@@ -51,7 +51,7 @@
   width: 431px;
 }
 
-.desktop-form .rectangle {
+.desktop-form .rectangle-9 {
   background-color: #ffffff;
   border: 0.54px solid;
   border-color: #000000;
@@ -70,13 +70,13 @@
   width: 108px;
 }
 
-.desktop-form .overlap-2 {
+.desktop-form .overlap-20 {
   height: 28px;
   position: relative;
   width: 106px;
 }
 
-.desktop-form .rectangle-2 {
+.desktop-form .rectangle-10 {
   background-color: #ffffff;
   height: 28px;
   left: 0;
@@ -85,7 +85,7 @@
   width: 95px;
 }
 
-.desktop-form .text-wrapper-2 {
+.desktop-form .text-wrapper-31 {
   color: #0a3749;
   font-family: "Nunito", Helvetica;
   font-size: 16.9px;
@@ -99,7 +99,7 @@
   width: 94px;
 }
 
-.desktop-form .overlap-3 {
+.desktop-form .overlap-21 {
   height: 63px;
   left: 472px;
   position: absolute;
@@ -107,7 +107,7 @@
   width: 430px;
 }
 
-.desktop-form .rectangle-3 {
+.desktop-form .rectangle-11 {
   background-color: #ffffff;
   border: 0.54px solid;
   border-color: #000000;
@@ -119,7 +119,7 @@
   width: 430px;
 }
 
-.desktop-form .div-wrapper {
+.desktop-form .group-5 {
   height: 28px;
   left: 19px;
   position: absolute;
@@ -127,14 +127,14 @@
   width: 60px;
 }
 
-.desktop-form .overlap-4 {
+.desktop-form .overlap-22 {
   background-color: #ffffff;
   height: 28px;
   position: relative;
   width: 58px;
 }
 
-.desktop-form .text-wrapper-3 {
+.desktop-form .text-wrapper-32 {
   color: #0a3749;
   font-family: "Nunito", Helvetica;
   font-size: 16.9px;
@@ -148,7 +148,7 @@
   width: 52px;
 }
 
-.desktop-form .overlap-5 {
+.desktop-form .overlap-23 {
   height: 64px;
   left: 695px;
   position: absolute;
@@ -156,7 +156,7 @@
   width: 208px;
 }
 
-.desktop-form .rectangle-4 {
+.desktop-form .rectangle-12 {
   background-color: #ffffff;
   border: 0.54px solid;
   border-color: #000000;
@@ -168,7 +168,7 @@
   width: 208px;
 }
 
-.desktop-form .group-2 {
+.desktop-form .group-6 {
   height: 28px;
   left: 11px;
   position: absolute;
@@ -176,14 +176,14 @@
   width: 97px;
 }
 
-.desktop-form .overlap-6 {
+.desktop-form .overlap-24 {
   background-color: #ffffff;
   height: 28px;
   position: relative;
   width: 95px;
 }
 
-.desktop-form .text-wrapper-4 {
+.desktop-form .text-wrapper-33 {
   color: #0a3749;
   font-family: "Nunito", Helvetica;
   font-size: 16.9px;
@@ -197,7 +197,7 @@
   width: 81px;
 }
 
-.desktop-form .overlap-7 {
+.desktop-form .overlap-25 {
   height: 64px;
   left: 471px;
   position: absolute;
@@ -205,7 +205,7 @@
   width: 197px;
 }
 
-.desktop-form .rectangle-5 {
+.desktop-form .rectangle-13 {
   background-color: #ffffff;
   border: 0.54px solid;
   border-color: #000000;
@@ -217,7 +217,7 @@
   width: 197px;
 }
 
-.desktop-form .group-3 {
+.desktop-form .group-7 {
   height: 28px;
   left: 13px;
   position: absolute;
@@ -225,7 +225,7 @@
   width: 97px;
 }
 
-.desktop-form .text-wrapper-5 {
+.desktop-form .text-wrapper-34 {
   color: #0a3749;
   font-family: "Nunito", Helvetica;
   font-size: 16.9px;
@@ -256,7 +256,7 @@
   width: 215px !important;
 }
 
-.desktop-form .magma-translation {
+.desktop-form .magma-translation-5 {
   height: 35px;
   left: 83px;
   position: absolute;
@@ -264,7 +264,7 @@
   width: 124px;
 }
 
-.desktop-form .h-1 {
+.desktop-form .text-wrapper-35 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 34.6px;
@@ -277,7 +277,7 @@
   width: 461px;
 }
 
-.desktop-form .p {
+.desktop-form .text-wrapper-36 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 18px;
@@ -291,7 +291,7 @@
   width: 816px;
 }
 
-.desktop-form .text-wrapper-6 {
+.desktop-form .text-wrapper-37 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 18px;
@@ -305,7 +305,7 @@
   width: 444px;
 }
 
-.desktop-form .img {
+.desktop-form .magma-translation-6 {
   height: 54px;
   left: 410px;
   position: absolute;
