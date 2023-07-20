@@ -31,7 +31,7 @@ export const App = () => {
       element: renderMainPage(),
     },
     {
-      path: "/form",
+      path: "/desktop-form",
       element: renderFormPage(),
     },
   ]);
