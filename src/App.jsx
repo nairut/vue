@@ -1,42 +1,33 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { useMediaQuery } from "react-responsive";
 import { Celular } from "./screens/Celular";
-import { DesktopForm } from "./screens/DesktopForm";
-import { CellForm } from "./screens/CellForm";
 import { Index } from "./screens/Index";
+import { CellForm } from "./screens/CellForm";
+import { DesktopForm } from "./screens/DesktopForm";
 
-const App = () => {
-  const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
+const router = createBrowserRouter([
+  {
+    path: "/*",
+    element: <Celular />,
+  },
+  {
+    path: "/celular",
+    element: <Celular />,
+  },
+  {
+    path: "/index",
+    element: <Index />,
+  },
+  {
+    path: "/cell-form",
+    element: <CellForm />,
+  },
+  {
+    path: "/desktop-form",
+    element: <DesktopForm />,
+  },
+]);
 
-  const renderForm = () => {
-    if (isMobile) {
-      return <Celular />;
-    } else {
-      return <DesktopForm />;
-    }
-  };
-
-  const router = createBrowserRouter([
-    {
-      path: "/*",
-      element: <Index />,
-    },
-    {
-      path: "/form",
-      element: renderForm(),
-    },
-    {
-      path: "/cell-form",
-      element: <CellForm />,
-    },
-    {
-      path: "/index",
-      element: <Index />,
-    },
-  ]);
-
+export const App = () => {
   return <RouterProvider router={router} />;
 };
-
-export default App;
