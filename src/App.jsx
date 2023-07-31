@@ -5,7 +5,7 @@ import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
 import { CellForm } from "./screens/CellForm";
 import { Index } from "./screens/Index";
-
+import TagManager from 'react-gtm-module'
 
 
 
@@ -42,6 +42,11 @@ export const App = () => {
     },
   ]);
 
+
+const tagManagerArgs = {
+  gtmId: 'GTM-K3GKPJ5'
+}
+TagManager.initialize(tagManagerArgs)
 
 
   return <RouterProvider router={router} />;
