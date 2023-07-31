@@ -44,7 +44,7 @@ export const App = () => {
 
 
     {
-      path: "/obrigado",
+      path: "/teste",
       element: <Obrigado />,
     },
 
