@@ -5,6 +5,10 @@ import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
 import { CellForm } from "./screens/CellForm";
 import { Index } from "./screens/Index";
+import { TagManager } from "../node_modules/react-gtm-module/src/TagManager";
+
+
+
 
 export const App = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -38,3 +42,10 @@ export const App = () => {
 
   return <RouterProvider router={router} />;
 };
+
+import TagManager from 'react-gtm-module'
+const tagManagerArgs = {
+  gtmId: '<GTM-K3GKPJ5>'
+}
+TagManager.initialize(tagManagerArgs)
+
