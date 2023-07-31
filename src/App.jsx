@@ -5,7 +5,8 @@ import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
 import { CellForm } from "./screens/CellForm";
 import { Index } from "./screens/Index";
-import { TagManager } from "react-gtm-module/src";
+import TagManager from 'react-gtm-module'
+
 
 
 
