@@ -6,6 +6,7 @@ import { DesktopForm } from "./screens/DesktopForm";
 import { CellForm } from "./screens/CellForm";
 import { Index } from "./screens/Index";
 import TagManager from 'react-gtm-module'
+import { Obrigado } from "./screens/Obrigado";
 
 
 
@@ -40,6 +41,15 @@ export const App = () => {
       path: "/desktop-form",
       element: renderFormPage(),
     },
+
+
+    {
+      path: "/obrigado",
+      element: <Obrigado />,
+    },
+
+
+     
   ]);
 
 
