@@ -8,7 +8,7 @@ export const Index = () => {
     <div className="index">
       <div className="div">
         <div className="overlap">
-          <img className="rectangle" alt="Rectangle" src="/img/rectangle.svg" />
+          <img className="rectangle" alt="Rectangle" src="/img/rectangle-min.png" />
           <div className="group-2">
             <h1 className="text-wrapper">Professional Translation Services</h1>
             <p className="element-languages-that">
