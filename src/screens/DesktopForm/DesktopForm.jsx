@@ -3,31 +3,24 @@ import { Lady } from "../../components/Lady";
 import "./style.css";
 
 export const DesktopForm = () => {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const form = event.target;
-    const formData = new FormData(form);
-    
-    // You can perform additional processing here with the form data if needed
-
-    // Submit the form programmatically (optional, it will work without this)
-    // form.submit();
-
-    // Redirect the user to "/teste" after form submission
-    window.location.href = "/teste";
-  };
-
   return (
+    
+    
+    
+    
     <div className="desktop-form">
       <div className="div">
-        <form name="contact" onSubmit={handleSubmit}>
-          <input type="hidden" name="form-name" value="contact" />
 
-          <div className="group">
-            <button className="overlap-group" type="submit">
-              <div className="text-wrapper">Send</div>
-            </button>
-          </div>
+      <form  name="contact" action="/" method="post">
+      <input type="hidden" name="form-name" value="contact" />
+
+        <div className="group">
+          <button className="overlap-group" type="submit">
+            <div className="text-wrapper">Send</div>
+          </button>
+        </div>
+
+
 
 
           <div className="overlap">
