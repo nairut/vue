@@ -7,7 +7,7 @@ import { CellForm } from "./screens/CellForm";
 import { Index } from "./screens/Index";
 import TagManager from 'react-gtm-module'
 import { Obrigado } from "./screens/Obrigado";
-
+import loadable from '@loadable/component'
 
 
 
@@ -53,12 +53,18 @@ export const App = () => {
   ]);
 
 
-const tagManagerArgs = {
-  gtmId: 'GTM-K3GKPJ5'
+const OtherComponent = loadable(() => import('./Gtm'))
+function MyComponent() {
+  return (
+    <div>
+      <Gtm />
+    </div>
+  )
 }
-TagManager.initialize(tagManagerArgs)
 
 
   return <RouterProvider router={router} />;
 };
+
+
 
