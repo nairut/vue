@@ -10,8 +10,7 @@ import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
 
 // Lazy-loaded components
-const LazyTagManager = React.lazy(() => import("react-gtm-module"));
-wewer
+const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
 
 
 export const App = () => {
@@ -54,16 +53,15 @@ export const App = () => {
   ]);
 
 
-  // Lazy load and initialize TagManager
-  useEffect(() => {
-    const tagManagerArgs = {
-      gtmId: "GTM-K3GKPJ5",
-    };
-    TagManager.initialize(tagManagerArgs);
-  }, []);
 
-
-  return <RouterProvider router={router} />;
+  return (
+    <React.Suspense fallback={<div>Loading...</div>}>
+      {/* Lazy-load and render the TagManager component */}
+      <LazyTagManager />
+      <RouterProvider router={router} />
+    </React.Suspense>
+  );
+  
 };
 
 
