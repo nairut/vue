@@ -53,14 +53,14 @@ export const App = () => {
   ]);
 
 
-const OtherComponent = loadable(() => import('./Gtm'))
-function MyComponent() {
-  return (
-    <div>
-      <Gtm />
-    </div>
-  )
-}
+  const OtherComponent = loadable(() => import('./Gtm'))
+  function MyComponent() {
+    return (
+      <div>
+        <Gtm />
+     </div>
+    )
+  }
 
 
   return <RouterProvider router={router} />;
