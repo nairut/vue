@@ -1,24 +1,20 @@
 import React, { useEffect } from 'react';
-import TagManager from 'react-gtm-module'; // Assuming you have installed the 'react-gtm-module' package
 
-const TagManagerComponent = () => {
+function TagManager() {
   useEffect(() => {
     const tagManagerArgs = {
       gtmId: 'GTM-K3GKPJ5'
     };
     TagManager.initialize(tagManagerArgs);
 
-    // Cleanup function (optional)
+    // Additional cleanup if needed
     return () => {
-      // Perform any cleanup operations here, if needed.
+      // Clean up any resources or event listeners here
     };
   }, []);
 
-  return (
-    <div>
-      {/* Your component's content goes here */}
-    </div>
-  );
-};
+  // Your TagManager component implementation
+  return <div>TagManager Component</div>;
+}
 
-export default TagManagerComponent;
+export default TagManager;

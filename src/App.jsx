@@ -8,6 +8,9 @@ import { Index } from "./screens/Index";
 import TagManager from 'react-gtm-module'
 import { Obrigado } from "./screens/Obrigado";
 
+// Lazy-loaded components
+const LazyTagManager = React.lazy(() => import("react-gtm-module"));
+
 
 
 
@@ -47,16 +50,17 @@ export const App = () => {
     },
 
 
-
-
      
   ]);
 
 
-const tagManagerArgs = {
-  gtmId: 'GTM-K3GKPJ5'
-}
-TagManager.initialize(tagManagerArgs)
+  // Lazy load and initialize TagManager
+  useEffect(() => {
+    const tagManagerArgs = {
+      gtmId: "GTM-K3GKPJ5",
+    };
+    TagManager.initialize(tagManagerArgs);
+  }, []);
 
 
   return <RouterProvider router={router} />;
