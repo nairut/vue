@@ -5,7 +5,7 @@ import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
 import { CellForm } from "./screens/CellForm";
 import { Index } from "./screens/Index";
-import TagManager from 'react-gtm-module'
+
 import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
 
@@ -61,7 +61,7 @@ export const App = () => {
       <RouterProvider router={router} />
     </React.Suspense>
   );
-  
+
 };
 
 

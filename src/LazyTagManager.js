@@ -7,8 +7,6 @@ const tagManagerArgs = {
 
 TagManager.initialize(tagManagerArgs);
 
-const LazyTagManager = () => {
-  return <div>TagManager Initialized</div>;
-};
+
 
 export default LazyTagManager;
