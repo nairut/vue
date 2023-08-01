@@ -55,14 +55,6 @@ export const App = () => {
   ]);
 
 
-  // Lazy load and initialize TagManager
-  useEffect(() => {
-    const tagManagerArgs = {
-      gtmId: "GTM-K3GKPJ5",
-    };
-    TagManager.initialize(tagManagerArgs);
-  }, []);
-
 
   return <RouterProvider router={router} />;
 };
