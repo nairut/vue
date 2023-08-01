@@ -1,5 +1,9 @@
-[[redirects]]
-  from = "/robots.txt"
-  to = "/robots.txt"
-  status = 200
-  force = true
+
+[build.environment]
+
+[context.production.branch-deploy]
+    command = "mv robots-disallow.txt robots.txt"
+
+
+[context.production]
+    command = "mv robots-production.txt robots.txt"
