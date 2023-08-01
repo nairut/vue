@@ -10,6 +10,7 @@ import { Obrigado } from "./screens/Obrigado";
 
 
 
+
 export const App = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
@@ -44,6 +45,8 @@ export const App = () => {
       path: "/teste",
       element: <Obrigado />,
     },
+
+
 
 
      
